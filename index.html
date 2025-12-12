@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarvajnya | Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">S</span>
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#competitive" class="nav-link">CP Profiles</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                
+                <h1 class="hero-title">Sarvajnya Pujari</h1>
+                <p class="hero-subtitle">
+                    <span class="typewriter" id="typewriter"></span>
+                    <span class="cursor">|</span>
+                </p>
+                
+                
+                <div class="hero-socials">
+                    <a href="https://github.com/raiseIQUnderflow" target="_blank" aria-label="GitHub" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/sarvajnyapujari" target="_blank" aria-label="LinkedIn" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="https://stackoverflow.com/users/23057975/iqunderflow" target="_blank" aria-label="Stack Overflow" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17v3h16v-3"></path><path d="M6 17v-1h12v1"></path><path d="M7.5 13l9.4 1.5"></path><path d="M9 9l8.5 4"></path><path d="M11.5 5.5l7 6"></path></svg>
+                    </a>
+                    <a href="https://ask.wireshark.org/users/20909/pcap_enjoyer/" target="_blank" aria-label="Ask Wireshark" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                    </a>
+                    <a href="https://x.com/IQUnderflow" target="_blank" aria-label="X (Twitter)" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                    </a>
+                    <a href="https://youtube.com/@IQUnderflow" target="_blank" aria-label="YouTube" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                    </a>
+                    <a href="https://www.chess.com/member/raiseiqunderflow" target="_blank" aria-label="Chess.com" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 16l-1.447.724a1 1 0 0 0-.553.894V20h12v-2.382a1 1 0 0 0-.553-.894L16 16"></path><path d="M8.5 16a2.5 2.5 0 0 1 0-5"></path><path d="M15.5 16a2.5 2.5 0 0 0 0-5"></path><path d="M9 11V6a3 3 0 1 1 6 0v5"></path><circle cx="12" cy="4" r="1"></circle></svg>
+                    </a>
+                    <a href="mailto:pujarsarvajnya5@gmail.com" aria-label="Email" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-shape"></div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-avatar">
+                        <span>S</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about" class="scroll-down">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+                <span class="arrow"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        CSE Gold Medalist.
+                    </p>
+                    <p>
+                        Currently exploring embedded systems, 5G NR protocol stack (Physical layer), and wireless networking. I've worked on real-time industry projects involving ANSI SQL, Selenium with Python, Node.js, and Genesys Cloud.
+                    </p>
+                    <p>
+                        Consistently expanding knowledge and skills in problem solving & DSA by participating in global competitive programming contests. Always eager to learn and apply modern tools and technologies to solve real-world challenges.
+                    </p>
+                    <!-- <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">🥇</span>
+                            <span class="stat-label">CSE Gold Medalist</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="28">0</span>+
+                            <span class="stat-label">GitHub Repos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="500">0</span>+
+                            <span class="stat-label">Problems Solved</span>
+                        </div>
+                    </div> -->
+                    <a href="#contact" class="btn btn-primary">Let's Work Together</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-subtitle">Core technologies and domains I specialize in</p>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Programming & DSA</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>C</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Data Structures</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Algorithms</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Competitive Programming</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Embedded & Wireless</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Embedded Systems</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>5G NR PHY</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Wireless Networking</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Microcontrollers</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Real-time Systems</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Protocol Stacks</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Analysis</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Wireshark</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Linux/WSL</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>ANSI SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Selenium</span>
+                        </div>
+                        <div class="skill-item">
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitive Programming Section -->
+    <section class="section competitive" id="competitive">
+        <div class="container">
+            <h2 class="section-title">Competitive Programming</h2>
+            <p class="section-subtitle">My profiles across various competitive programming platforms</p>
+            <div class="cp-grid">
+                <a href="https://clist.by/coder/raiseIQUnderflow/" target="_blank" class="cp-card">
+                    <div class="cp-info">
+                        <h3>CLIST</h3>
+                    </div>
+                </a>
+                <a href="https://codeforces.com/profile/sarvajnya_18" target="_blank" class="cp-card">
+                    <div class="cp-info">
+                        <h3>Codeforces</h3>
+                    </div>
+                </a>
+                <a href="https://leetcode.com/raiseIQUnderflow" target="_blank" class="cp-card">
+                    <div class="cp-info">
+                        <h3>LeetCode</h3>
+                        
+                    </div>
+                </a>
+                <a href="https://www.codechef.com/users/omniscient_18" target="_blank" class="cp-card">
+                    <div class="cp-info">
+                        <h3>CodeChef</h3>
+                    </div>
+                </a>
+                <a href="https://atcoder.jp/users/raiseIQUnderflow" target="_blank" class="cp-card">
+                    <div class="cp-info">
+                        <h3>AtCoder</h3>
+                    </div>
+                </a>
+                <a href="https://www.hackerrank.com/raiseIQUnderflow" target="_blank" class="cp-card">
+                    <div class="cp-info">
+                        <h3>HackerRank</h3>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/codingcompetitions/hacker-cup/2025/certificate/2172784319875325" target="_blank" class="cp-card">
+                    <div class="cp-info">
+                        <h3>Meta Hacker Cup 2025</h3>
+                        <p style="font-size: 0.8rem; color: var(--text-muted);">Certificate</p>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A selection of my recent work</p>
+            <div class="projects-grid">
+                <!-- <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span>🧠</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/raiseIQUnderflow/BrainRewire" target="_blank" class="project-link" aria-label="View Code">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">BrainRewire</h3>
+                        <p class="project-description">Android app to break free from digital distractions. Features content filtering, uninstall protection, website & app blocking using VpnService and AccessibilityService.</p>
+                        <div class="project-tags">
+                            <span class="tag">Kotlin</span>
+                            <span class="tag">Android</span>
+                            <span class="tag">VpnService</span>
+                            <span class="tag">⭐ 2</span>
+                        </div>
+                    </div>
+                </article> -->
+                <!-- <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span>🖥️</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/raiseIQUnderflow/http-server" target="_blank" class="project-link" aria-label="View Code">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">HTTP Server in C</h3>
+                        <p class="project-description">A HTTP/1.1 server built from scratch in C. Features static file serving, request logging, security features, and graceful shutdown handling.</p>
+                        <div class="project-tags">
+                            <span class="tag">C</span>
+                            <span class="tag">Sockets</span>
+                            <span class="tag">HTTP</span>
+                            <span class="tag">Makefile</span>
+                        </div>
+                    </div>
+                </article> -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span>💻</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/raiseIQUnderflow/CodeHub" target="_blank" class="project-link" aria-label="View Code">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CodeHub</h3>
+                        <p class="project-description">Online C/C++ compiler with code saving, editing, and C to Python conversion. Features Docker configuration and EC2 deployment.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">Docker</span>
+                            
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span>🖱️</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/raiseIQUnderflow/Virtual-mouse" target="_blank" class="project-link" aria-label="View Code">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Virtual Mouse</h3>
+                        <p class="project-description">Hand gesture-controlled virtual mouse using computer vision. Supports mouse movement, left/right/middle click operations using MediaPipe.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">MediaPipe</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">AutoPy</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span>📊</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/raiseIQUnderflow/SortingComparator" target="_blank" class="project-link" aria-label="View Code">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sorting Comparator</h3>
+                        <p class="project-description">Interactive visualization tool to compare different sorting algorithms. Watch algorithms in action and understand their performance.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">Algorithms</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span>📜</span>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/raiseIQUnderflow/Nyayashastra" target="_blank" class="project-link" aria-label="View Code">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Nyayashastra</h3>
+                        <p class="project-description">A web application exploring classical Indian philosophy and jurisprudence concepts through an interactive interface.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">HTML</span>
+                        </div>
+                    </div>
+                </article> -->
+            </div>
+            <div class="projects-cta">
+                <a href="https://github.com/raiseIQUnderflow" target="_blank" class="btn btn-outline">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Have a project in mind? Let's work together!</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:pujarsarvajnya5@gmail.com">pujarsarvajnya5@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>India</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required placeholder=" ">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <a href="https://github.com/raiseIQUnderflow" target="_blank">GitHub</a>
+                        <a href="https://linkedin.com/in/sarvajnyapujari" target="_blank">LinkedIn</a>
+                        <a href="https://x.com/IQUnderflow" target="_blank">X (Twitter)</a>
+                        <a href="https://youtube.com/@IQUnderflow" target="_blank">YouTube</a>
+                        <a href="https://stackoverflow.com/users/23057975/iqunderflow" target="_blank">Stack Overflow</a>
+                        <a href="mailto:pujarsarvajnya5@gmail.com">Email</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
