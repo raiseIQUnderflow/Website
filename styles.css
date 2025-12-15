@@ -773,6 +773,45 @@ button {
     font-family: var(--font-mono);
 }
 
+.cp-rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.cp-rating .rating-value {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: var(--font-mono);
+}
+
+.cp-rating .rating-subtitle {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: capitalize;
+}
+
+.cp-rating .rating-loading {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+.cp-rating.loaded {
+    animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 /* ===================================
    Projects Section
    =================================== */

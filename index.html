@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarvajnya | Personal Portfolio</title>
+    <title>Sarvajnya Pujari</title>
+        <link rel="icon" href="favicon.svg" type="image/svg+xml">
+        <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+        <meta name="theme-color" content="#0f172a">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -208,44 +211,72 @@
             <h2 class="section-title">Competitive Programming</h2>
             <p class="section-subtitle">My profiles across various competitive programming platforms</p>
             <div class="cp-grid">
-                <a href="https://clist.by/coder/raiseIQUnderflow/" target="_blank" class="cp-card">
-                    <div class="cp-info">
-                        <h3>CLIST</h3>
-                    </div>
-                </a>
-                <a href="https://codeforces.com/profile/sarvajnya_18" target="_blank" class="cp-card">
+                
+                <a href="https://codeforces.com/profile/sarvajnya_18" target="_blank" class="cp-card" data-platform="codeforces">
                     <div class="cp-info">
                         <h3>Codeforces</h3>
+                        <div class="cp-rating" id="codeforces-rating">
+                            <span class="rating-loading">Loading...</span>
+                        </div>
                     </div>
                 </a>
-                <a href="https://leetcode.com/raiseIQUnderflow" target="_blank" class="cp-card">
+                <a href="https://leetcode.com/raiseIQUnderflow" target="_blank" class="cp-card" data-platform="leetcode">
                     <div class="cp-info">
                         <h3>LeetCode</h3>
+                        <div class="cp-rating" id="leetcode-rating">
+                            <span class="rating-loading">Loading...</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.codechef.com/users/omniscient_18" target="_blank" class="cp-card" data-platform="codechef">
+                    <div class="cp-info">
+                        <h3>CodeChef</h3>
+                        <div class="cp-rating" id="codechef-rating">
+                            <span class="rating-loading">Loading...</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://atcoder.jp/users/raiseIQUnderflow" target="_blank" class="cp-card" data-platform="atcoder">
+                    <div class="cp-info">
+                        <h3>AtCoder</h3>
+                        <div class="cp-rating" id="atcoder-rating">
+                            <span class="rating-loading">Loading...</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.geeksforgeeks.org/profile/sarvajnya_18" target="_blank" class="cp-card" data-platform="gfg">
+                    <div class="cp-info">
+                        <h3>GeeksforGeeks</h3>
+                        <div class="cp-rating" id="gfg-rating">
+                            <span class="rating-loading">Loading...</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.hackerrank.com/raiseIQUnderflow" target="_blank" class="cp-card" data-platform="hackerrank">
+                    <div class="cp-info">
+                        <h3>HackerRank</h3>
                         
                     </div>
                 </a>
-                <a href="https://www.codechef.com/users/omniscient_18" target="_blank" class="cp-card">
+                
+                
+                <a href="https://clist.by/coder/raiseIQUnderflow/" target="_blank" class="cp-card" data-platform="clist">
                     <div class="cp-info">
-                        <h3>CodeChef</h3>
+                        <h3>CLIST</h3>
+                        <div class="cp-rating">
+                            <span class="rating-value" style="color: #6366f1;">📊</span>
+                            <span class="rating-subtitle">All Platforms</span>
+                        </div>
                     </div>
                 </a>
-                <a href="https://atcoder.jp/users/raiseIQUnderflow" target="_blank" class="cp-card">
-                    <div class="cp-info">
-                        <h3>AtCoder</h3>
-                    </div>
-                </a>
-                <a href="https://www.hackerrank.com/raiseIQUnderflow" target="_blank" class="cp-card">
-                    <div class="cp-info">
-                        <h3>HackerRank</h3>
-                    </div>
-                </a>
-                <a href="https://www.facebook.com/codingcompetitions/hacker-cup/2025/certificate/2172784319875325" target="_blank" class="cp-card">
+                <a href="https://www.facebook.com/codingcompetitions/hacker-cup/2025/certificate/2172784319875325" target="_blank" class="cp-card" data-platform="hackercup">
                     <div class="cp-info">
                         <h3>Meta Hacker Cup 2025</h3>
-                        <p style="font-size: 0.8rem; color: var(--text-muted);">Certificate</p>
+                        <div class="cp-rating">
+                            <span class="rating-value">🏆 Certificate</span>
+                        </div>
                     </div>
                 </a>
-                
             </div>
         </div>
     </section>
