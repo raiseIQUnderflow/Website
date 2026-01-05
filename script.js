@@ -558,14 +558,14 @@ async function fetchAllRatingsFromClist() {
     }
 
     // Parse content for platform ratings
-    const parsed = parseClistContent(content);
+    // const parsed = parseClistContent(content);
 
-    // Update UI per platform
-    updateFromParsed('codeforces', parsed.codeforces);
-    updateFromParsed('leetcode', parsed.leetcode);
-    updateFromParsed('codechef', parsed.codechef);
-    updateFromParsed('atcoder', parsed.atcoder);
-    updateFromParsed('gfg', parsed.gfg);
+    // // Update UI per platform
+    // updateFromParsed('codeforces', parsed.codeforces);
+    // updateFromParsed('leetcode', parsed.leetcode);
+    // updateFromParsed('codechef', parsed.codechef);
+    // updateFromParsed('atcoder', parsed.atcoder);
+    // updateFromParsed('gfg', parsed.gfg);
 }
 
 function updateFromParsed(platform, data) {
@@ -794,3 +794,4 @@ Feel free to reach out if you want to collaborate.
 'font-size: 20px; font-weight: bold;',
 'font-size: 14px; color: #6366f1;'
 );
+
